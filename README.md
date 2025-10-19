@@ -27,16 +27,16 @@ It is structured to provide a seamless experience across all platforms, incorpor
 ### Project Goal: To Replicate & Build a Responsive Website from this Figma Layout
 ![Figma Layout](./images/projectshowcase.png)
 
-### Page 1:
+### Landing Page:
 ![PageOne Gif](./images/gif1.gif)
 
-### Page 2:
+### Accommodations Page:
 ![PageTwo Gif](./images/gif2.gif)
 
-### Page 3:
+### Places Page:
 ![PageTwo Screenshot](./images/gif3.png)
 
-### Page 4:
+### Contact Page:
 ![PageTwo Screenshot](./images/gif4.png)
 
 ## Project Author
