@@ -1,0 +1,49 @@
+/* ############################################################################## LOCAIS.HTML RESPONSIVE ############################################################################## */
+
+/* ############################################################################## MOBILE ############################################################################## */
+@media (max-width: 480px) {
+
+    #hero {height: 100vh !important; overflow: visible !important; position: relative !important;}
+    #hero img {position: absolute !important; width: 100% !important; height: 100% !important; object-fit: cover !important; z-index: 0 !important;}
+    div[style*="background-color: rgb(14, 14, 14)"] { position: absolute !important; z-index: 1 !important;}
+    nav {position: relative !important; z-index: 3 !important;}
+    nav i {font-size: 30px !important; top: 12px !important; left: 12px !important;}
+    ul.nav {margin: 8px !important; gap: 8px !important; flex-direction: column !important;}
+    ul.nav a {font-size: 11px !important;}
+    div[style*="background-color: rgb(228, 228, 228)"] {position: absolute !important; top: 50% !important; left: 50% !important; transform: translate(-50%, -50%) !important; width: 85% !important; max-width: 280px !important; height: auto !important; z-index: 2 !important; padding: 15px !important; border-radius: 20px !important;}
+    form {width: 100% !important;}
+    .form-label {font-size: 12px !important; margin-top: 8px !important; margin-bottom: 5px !important;}
+    .form-select {height: 35px !important; border-radius: 8px !important; font-size: 11px !important; margin-bottom: 6px !important;}
+    form button {height: 40px !important; font-size: 13px !important; margin-top: 10px !important;}
+    div[style*="transform: scale(0.65)"] {position: absolute !important; top: 10% !important; right: 5% !important; left: auto !important; transform: scale(0.25) !important; z-index: 2 !important; margin: 0 !important;}
+    div[style*="transform: scale(0.65)"] img {height: 400px !important; border-radius: 12px !important;}
+    div[style*="background-color: rgba(0, 0, 0, 0.6)"] {position: absolute !important; bottom: 5% !important; left: 50% !important; right: auto !important; top: auto !important; transform: translateX(-50%) !important; width: 85% !important; max-width: 280px !important; height: auto !important; z-index: 2 !important; padding: 12px !important; border-radius: 15px !important;}
+    div[style*="background-color: rgba(0, 0, 0, 0.6)"] p {font-size: 11px !important; margin-left: 0 !important; margin-bottom: 6px !important; text-align: center !important;}
+
+}
+/* ############################################################################## MOBILE ############################################################################## */
+
+/* ############################################################################## TABLET ############################################################################## */
+@media (min-width: 481px) and (max-width: 1023px) {
+
+    #hero {height: 100vh !important; overflow: hidden !important; position: relative !important;}
+    #hero img {position: absolute !important; width: 100% !important; height: 100% !important; object-fit: cover !important; z-index: 0 !important;}
+    div[style*="background-color: rgb(14, 14, 14)"] {position: absolute !important; z-index: 1 !important;}
+    nav {position: relative !important; z-index: 3 !important;}
+    nav i {font-size: 40px !important; top: 15px !important; left: 15px !important;}
+    ul.nav {margin: 12px !important; gap: 15px !important; flex-wrap: wrap !important;}
+    ul.nav a {font-size: 13px !important;}
+    div[style*="background-color: rgb(228, 228, 228)"] {position: absolute !important; top: 50% !important; left: 25% !important; transform: translate(-50%, -50%) !important; width: 70% !important; max-width: 300px !important; height: auto !important; z-index: 2 !important; padding: 18px !important; border-radius: 22px !important;}
+    form {width: 100% !important;}
+    .form-label {font-size: 13px !important; margin-top: 10px !important; margin-bottom: 6px !important;}
+    .form-select {height: 42px !important; border-radius: 11px !important; font-size: 12px !important; margin-bottom: 8px !important;}
+    form button {height: 45px !important; font-size: 14px !important; margin-top: 12px !important;}
+    div[style*="transform: scale(0.65)"] {position: absolute !important; top: 30% !important; right: 10% !important; left: auto !important; transform: scale(0.45) !important; z-index: 2 !important; margin: 0 !important; display: block !important; visibility: visible !important;}
+    div[style*="transform: scale(0.65)"] img {height: 600px !important; width: auto !important; border-radius: 15px !important; display: block !important;}
+    div[style*="background-color: rgba(0, 0, 0, 0.6)"] {position: absolute !important; bottom: 40% !important; left: 75% !important; right: auto !important; top: auto !important; transform: translateX(-50%) !important; width: 70% !important; max-width: 320px !important; height: auto !important; z-index: 2 !important; padding: 15px !important; border-radius: 20px !important;}
+    div[style*="background-color: rgba(0, 0, 0, 0.6)"] p {font-size: 12px !important; margin-left: 0 !important; margin-bottom: 8px !important; text-align: center !important;}
+
+}
+/* ############################################################################## TABLET ############################################################################## */
+
+/* ############################################################################## LOCAIS.HTML RESPONSIVE ############################################################################## */

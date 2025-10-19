@@ -1,88 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
-ul {
-    display: flex;
-    gap: 100px;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Jura', sans-serif;
-    font-weight: 700;
-}
-
-h1 {
-    color: white;
-    font-size: 90px;
-    font-family: 'Josefin Slab', sans-serif;
-    font-weight: 800;
-}
+/* ################################################################################### GENERAL ################################################################################### */
+* {margin: 0; padding: 0;}
+html, body {height: 100%; width: 100%;}
+/* ################################################################################### GENERAL ################################################################################### */
 
 /* ################################################################################### SECTION 1 ################################################################################### */
-
-h2 {
-    font-family: 'Jura', sans-serif;
-    color: black;
-    letter-spacing: 8px;
-    font-size: 50px;
-    font-weight: 200;
-    width: 70%;
-    text-align: start;
-}
-
-.title {
-    font-family: 'Jura', sans-serif;
-    color: black;
-    letter-spacing: 2px;
-    font-size: 35px;
-    font-weight: 800;
-    width: 90%;
-    text-align: center;
-}
-
-span {
-    font-weight: 800;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-}
-
-.container hr {
-    width: 100%;
-    border: 1px solid black;
-    height: 400px;
-    opacity: 1;
-}
-
-li {
-    font-family: 'Jura', sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-}
-
-#firstBoxText {
-    background:
-    linear-gradient(to right, black 10px, transparent 10px) 0 0,
-    linear-gradient(to right, black 10px, transparent 10px) 0 0%,
-    linear-gradient(to left, black 10px, transparent 10px) 100% 100%,
-    linear-gradient(to bottom, black 10px, transparent 10px) 0 0,
-    linear-gradient(to bottom, black 10px, transparent 10px) 0% 0,
-    linear-gradient(to top, black 10px, transparent 10px) 100% 100%;
-
-    background-repeat: no-repeat;
-    background-size: 60px 50px;
-}
+ul {display: flex; gap: 100px;}
+a {color: black; text-decoration: none; font-size: 30px; font-family: 'Jura', sans-serif; font-weight: 700;}
+h1 {color: white; font-size: 90px; font-family: 'Josefin Slab', sans-serif; font-weight: 800;}
+/* ################################################################################### SECTION 1 ################################################################################### */
 
 /* ################################################################################### SECTION 2 ################################################################################### */
+h2 {font-family: 'Jura', sans-serif; color: black; letter-spacing: 8px; font-size: 50px; font-weight: 200; width: 70%; text-align: start;}
+.title {font-family: 'Jura', sans-serif; color: black; letter-spacing: 2px; font-size: 35px; font-weight: 800; width: 90%; text-align: center;}
+span {font-weight: 800;}
+.container {display: flex; align-items: center;}
+.container hr {width: 100%; border: 1px solid black; height: 400px; opacity: 1;}
+li {font-family: 'Jura', sans-serif; font-weight: 800; font-size: 20px;}
+#firstBoxText {background: linear-gradient(to right, black 10px, transparent 10px) 0 0, linear-gradient(to right, black 10px, transparent 10px) 0 0%, linear-gradient(to left, black 10px, transparent 10px) 100% 100%, linear-gradient(to bottom, black 10px, transparent 10px) 0 0, linear-gradient(to bottom, black 10px, transparent 10px) 0% 0, linear-gradient(to top, black 10px, transparent 10px) 100% 100%; background-repeat: no-repeat; background-size: 60px 50px;}
+/* ################################################################################### SECTION 2 ################################################################################### */
+
+/* ################################################################################### LOCAIS SECTION ################################################################################### */
+input.form-select:disabled {color: black; background-color: #fff;}
+/* ################################################################################### LOCAIS SECTION ################################################################################### */

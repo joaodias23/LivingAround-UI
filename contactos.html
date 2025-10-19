@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+
+    <!-- CSS Imports -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsiveCSS/contactos.css">
+    <!-- CSS Imports -->
+
+    <!-- Script Imports -->
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Script Imports -->
+
+    <!-- Font Imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <!-- Font Imports -->
+
+    <!-- Font Awesome Icon Import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome Icon Import -->
+
+    <!-- Font Awesome Icon Import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome Icon Import -->
+
+</head>
+
+<body>
+    
+    <div class="container-fluid p-0" style="background-color:black; height: 100%; position: relative;">
+
+        <!-- navbar and background -->
+        <div id="hero" class="position-relative" style="height: 100vh; position: relative; overflow: hidden;">
+
+            <img src="./images/contactback.jpg" alt="coverImage" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.5; z-index: 1;"></div>
+
+            <nav style="position: relative; z-index: 3;">
+
+                <a href="./index.html"><i class="fa-solid fa-lines-leaning" style="position: absolute; font-size: 70px; color: rgba(140, 140, 140, 0.8); top: 20px; left: 30px;"></i></a>
+                
+                <div class="container-fluid">
+                   
+                    <ul class="position-absolute top-0 end-0 m-5 nav justify-content-end" style="filter: invert();">
+                        
+                        <li class="nav-item"><a href="./acomodacao.html" style="font-family: 'Josefin Slab', sans-serif;">ACOMODAÇÃO</a></li>
+                        <li class="nav-item"><a href="./locais.html" style="font-family: 'Josefin Slab', sans-serif;">LOCAIS</a></li>
+                        <li class="nav-item"><a href="#" style="font-family: 'Josefin Slab', sans-serif;">BLOG</a></li>
+                        <li class="nav-item"><a href="./contactos.html" style="font-family: 'Josefin Slab', sans-serif;">CONTACTOS</a></li>
+
+                    </ul>
+
+                </div>
+
+            </nav>
+
+             <!-- Form -->
+            <div style="position: absolute; top: 15%; left: 17%; z-index: 2; color: white; width: 500px; height: 750px; background-color: black; border-radius: 35px; display: flex; justify-content: center; align-items: center;">
+                
+                <form style="width: 75%; height: 85%;">
+
+                    <label for="Name" class="form-label" style="font-size: 20px; font-family: 'Jura', sans-serif; font-weight: 600;">Nome:</label>
+                    <input type="text" class="form-control" style="height: 12%; border-radius: 10px;" required>
+                    <label for="Name" class="form-label"  style="margin-top: 10px; font-size: 20px; font-family: 'Jura', sans-serif; font-weight: 600;">Email:</label>
+                    <input type="email" class="form-control" style="height: 12%; border-radius: 10px;" required>
+                    <label for="Name" class="form-label" style="margin-top: 10px; font-size: 20px; font-family: 'Jura', sans-serif; font-weight: 600;">Mensagem:</label>
+                    <input type="text" class="form-control" style="height: 30%; margin-bottom: 50px; border-radius: 10px;" required>
+                    <button type="button" id="openModal" class="btn mt-4 btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modal" style="color: white; border: 3px solid white; width: 370px; height: 80px; border-radius: 50px; font-size: 25px; letter-spacing: 2px; font-family: 'Jura', sans-serif; font-weight: 600;">Enviar</button>
+                
+                </form>
+
+            </div>
+
+            <div style="position: absolute; top: -5%; left: 63%; z-index: 2; color: white; width: 500px; height: 750px; border-radius: 35px; display: flex; justify-content: center; align-items: center;">
+
+                <figure class="text-end">
+                    <blockquote class="blockquote" style="font-size: 30px; font-family: 'Jura', sans-serif; font-weight: 600; width: 590px; text-align: center; letter-spacing: 1px; line-height: 40px;">
+                        <p>"Viajar é descobrir que todos estão errados sobre outros países."</p>
+                    </blockquote>
+                    <figcaption class="blockquote" style="font-size: 23px; font-family: 'Jura', sans-serif; font-weight: 600; width: 550px; text-align: right; letter-spacing: 1px;">- Aldous Huxley</figcaption>
+                </figure>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+    <!-- modal pop-up -->
+    <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog" style="position: absolute; top: 10px; left: 44%; transform: translateX(-50%); border-radius: 50px">
+
+            <div class="modal-content" style="width: 750px; height: 200px; border-radius: 50px; overflow: hidden;">
+
+                <div class="modal-body d-flex flex-column justify-content-center align-items-center" style="background-color: white; border-radius:0px;">
+
+                    <h5 class="mb-4" style="font-family: 'Jura', sans-serif; font-weight: 600; color: black;">Seu formulário foi enviado com sucesso!</h5>
+
+                    <button type="button" class="btn btn-primary px-4 mt-4" style="border: none; font-family: 'Jura', sans-serif; font-weight: 600; width: 250px; height: 60px; border-radius: 30px;" data-bs-dismiss="modal">Ok</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</html>

@@ -1,0 +1,50 @@
+/* ############################################################################## CONTACTOS.HTML RESPONSIVE ############################################################################## */
+
+/* ############################################################################## MOBILE ############################################################################## */
+@media (max-width: 480px) {
+
+    #hero {height: 100vh !important; overflow: hidden !important;}
+    nav i {font-size: 35px !important; top: 15px !important; left: 15px !important;}
+    ul.nav {margin: 10px !important; gap: 12px !important; flex-direction: column !important;}
+    ul.nav a {font-size: 12px !important;}
+    div[style*="width: 500px"] {position: absolute !important; top: 58% !important; left: 50% !important; transform: translate(-50%, -50%) !important; width: 80% !important; max-width: 290px !important; height: auto !important; padding: 20px !important; z-index: 2 !important;}
+    form {width: 100% !important; height: auto !important;}
+    .form-label {font-size: 13px !important; margin-top: 8px !important;}
+    .form-control {height: 35px !important; border-radius: 8px !important; font-size: 12px !important;}
+    form button {width: 100% !important; height: 45px !important; font-size: 13px !important; margin-top: 15px !important;}
+    figure {display: none !important;}
+    .modal-dialog {width: 80vw !important; max-width: 280px !important; position: fixed !important; top: 50% !important; left: 50% !important; transform: translate(-50%, -50%) !important; margin: 0 !important;}
+    .modal-content {border-radius: 20px !important; width: 100% !important;}
+    .modal-body {padding: 15px !important;}
+    .modal-body h5 {font-size: 14px !important;}
+    .modal-body button {width: 120px !important; height: 45px !important; font-size: 12px !important;}
+
+}
+/* ############################################################################## MOBILE ############################################################################## */
+
+/* ############################################################################## TABLET ############################################################################## */
+@media (min-width: 481px) and (max-width: 1023px) {
+
+    #hero {height: 100vh !important; overflow: hidden !important;}
+    nav i {font-size: 45px !important; top: 18px !important; left: 18px !important;}
+    ul.nav {margin: 12px !important; gap: 20px !important; flex-wrap: wrap !important;}
+    ul.nav a {font-size: 14px !important;}
+    div[style*="width: 500px"] {position: absolute !important; top: 50% !important; left: 25% !important; transform: translate(-50%, -50%) !important; width: 70% !important; max-width: 320px !important; height: auto !important; padding: 20px !important; z-index: 2 !important;}
+    form {width: 100% !important; height: auto !important;}
+    .form-label {font-size: 14px !important; margin-top: 10px !important;}
+    .form-control {height: 38px !important; border-radius: 10px !important; font-size: 12px !important;}
+    form button {width: 100% !important; height: 48px !important; font-size: 14px !important; margin-top: 15px !important;}
+    figure {position: absolute !important; top: 0% !important; right: 55% !important; left: auto !important; transform: translateY(-280%) !important; width: 55% !important; max-width: 10px !important; z-index: 1 !important; text-align: right !important;}
+    .blockquote {font-size: 12px !important; line-height: 16px !important; text-align: right !important; overflow: hidden !important; white-space: normal !important;}
+    .blockquote p {margin-bottom: 10px !important;}
+    figcaption {font-size: 11px !important; text-align: right !important;}
+    .modal-dialog {width: 80vw !important; max-width: 320px !important; position: fixed !important; top: 50% !important; left: 50% !important; transform: translate(-50%, -50%) !important; margin: 0 !important;}
+    .modal-content {border-radius: 20px !important; width: 100% !important;}
+    .modal-body {padding: 15px !important;}
+    .modal-body h5 {font-size: 14px !important;}
+    .modal-body button {width: 130px !important; height: 45px !important; font-size: 12px !important;}
+
+}
+/* ############################################################################## TABLET ############################################################################## */
+
+/* ############################################################################## CONTACTOS.HTML RESPONSIVE ############################################################################## */

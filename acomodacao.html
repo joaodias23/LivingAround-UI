@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acomodação</title>
+
+    <!-- CSS Imports -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsiveCSS/acomodacao.css">
+    <!-- CSS Imports -->
+
+    <!-- Script Imports -->
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Script Imports -->
+
+    <!-- Font Imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <!-- Font Imports -->
+
+    <!-- Font Awesome Icon Import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome Icon Import -->
+
+</head>
+
+<body>
+
+    <div class="container-fluid p-0" style="height: 100%; position: relative;">
+
+        <!-- navbar and background -->
+        <div id="hero" class="position-relative" style="height: 80vh; position: relative; overflow: hidden;">
+
+            <img src="./images/vanacomodacao.jpg" alt="coverImage" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; object-position: center -650px;">
+
+            <nav style="position: relative; z-index: 3;">
+
+                <a href="./index.html"><i class="fa-solid fa-lines-leaning" style="position: absolute; font-size: 70px; color: black; top: 20px; left: 30px;"></i></a>
+                
+                <div class="container-fluid">
+                   
+                    <ul class="position-absolute top-0 end-0 m-5 nav justify-content-end">
+                        
+                        <li class="nav-item"><a href="./acomodacao.html" style="font-family: 'Josefin Slab', sans-serif;">ACOMODAÇÃO</a></li>
+                        <li class="nav-item"><a href="./locais.html" style="font-family: 'Josefin Slab', sans-serif;">LOCAIS</a></li>
+                        <li class="nav-item"><a href="#" style="font-family: 'Josefin Slab', sans-serif;">BLOG</a></li>
+                        <li class="nav-item"><a href="./contactos.html" style="font-family: 'Josefin Slab', sans-serif;">CONTACTOS</a></li>
+
+                    </ul>
+
+                </div>
+
+            </nav>
+
+            <div style="background-color: rgba(0, 0, 0, 0.7); width: 100%; height: 150px; position: absolute; top: 42%;">
+                <h1 class="position-absolute text-center top-50 start-50 translate-middle" style="margin-bottom: 10px;">O SEU NOVO OFFICE</h1>
+            </div>
+        </div>
+
+        <div id="middleSection" style="width: 100%; height: 2500px; background-color: rgba(180, 155, 44, 0.25); padding-top: 120px;">
+
+            <div class="container">
+
+                <div class="row g-5 justify-content-center">
+
+                    <!-- Card1 -->
+                    <div class="col-6 d-flex justify-content-center g-5">
+                        <div class="card" style="background-color: rgb(228, 228, 228); width: 600px; height: 700px; border-radius: 40px; overflow: hidden; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);">
+                            <img src="./images/1.jpg" class="card-img-top" alt="..." style="height: 330px; object-fit: cover; padding: 20px; border-radius: 50px; transform: scaleX(-1);">
+                            <h5 class="card-title" style="text-align: center; font-size: 36px; margin-top: 10px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -10px;">Hippie Ride</h5>
+                            <div class="card-body d-flex flex-column" style="padding: 30px; font-family: 'Jura', sans-serif; font-weight: 800;">
+                                <p style="margin-bottom: 10px; font-size: 23px;">A partir de 50€/dia</p>
+                                <p style="margin-top: 10px; font-size: 23px">Equipada com:</p>
+                                <ul style="display: flex; flex-direction: column; gap: 0px; margin-top: -20px;">
+                                    <li>Cozinha equipada;</li>
+                                    <li>Cama de casal;</li>
+                                    <li>WC portátil;</li>
+                                    <li>Carregador USB;</li>
+                                </ul>
+                                <a href="#" class="mt-4 text-center" style="text-decoration: none; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; color: black;" data-bs-toggle="modal" data-bs-target="#modal1">+ info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card1 -->
+
+                    <!-- Card2 -->
+                    <div class="col-6 d-flex justify-content-center g-5">
+                        <div class="card" style="background-color: rgb(228, 228, 228); width: 600px; height: 700px; border-radius: 40px; overflow: hidden; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);">
+                            <img src="./images/2.jpg" class="card-img-top" alt="..." style="height: 330px; object-fit: cover; padding: 20px; border-radius: 50px; transform: scaleX(-1); object-position: center -400px;">
+                            <h5 class="card-title" style="text-align: center; font-size: 36px; margin-top: 10px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -10px;">Harvest Ride</h5>
+                            <div class="card-body d-flex flex-column" style="padding: 30px; font-family: 'Jura', sans-serif; font-weight: 800;">
+                                <p style="margin-bottom: 10px; font-size: 23px;">A partir de 80€/dia</p>
+                                <p style="margin-top: 10px; font-size: 23px">Equipada com:</p>
+                                <ul style="display: flex; flex-direction: column; gap: 0px; margin-top: -20px;">
+                                    <li>Cozinha equipada;</li>
+                                    <li>Cama de casal;</li>
+                                    <li>WC portátil;</li>
+                                    <li>Carregador USB;</li>
+                                </ul>
+                                <a href="#" class="mt-4 text-center" style="text-decoration: none; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; color: black;" data-bs-toggle="modal" data-bs-target="#modal2">+ info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card2 -->
+
+                    <!-- Card3 -->
+                    <div class="col-6 d-flex justify-content-center g-5">
+                        <div class="card" style="background-color: rgb(228, 228, 228); width: 600px; height: 700px; border-radius: 40px; overflow: hidden; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);">
+                            <img src="./images/3.jpg" class="card-img-top" alt="..." style="height: 330px; object-fit: cover; padding: 20px; border-radius: 50px; transform: scaleX(-1); object-position: center -300px;">
+                            <h5 class="card-title" style="text-align: center; font-size: 36px; margin-top: 10px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -10px;">Nomade Ride</h5>
+                            <div class="card-body d-flex flex-column" style="padding: 30px; font-family: 'Jura', sans-serif; font-weight: 800;">
+                                <p style="margin-bottom: 10px; font-size: 23px;">A partir de 100€/dia</p>
+                                <p style="margin-top: 10px; font-size: 23px">Equipada com:</p>
+                                <ul style="display: flex; flex-direction: column; gap: 0px; margin-top: -20px;">
+                                    <li>Cozinha equipada;</li>
+                                    <li>Cama de casal;</li>
+                                    <li>WC incorporado;</li>
+                                    <li>Carregador USB;</li>
+                                </ul>
+                                <a href="#" class="mt-4 text-center" style="text-decoration: none; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; color: black;" data-bs-toggle="modal" data-bs-target="#modal3">+ info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card3 -->
+
+                    <!-- Card4 -->
+                    <div class="col-6 d-flex justify-content-center g-5">
+                        <div class="card" style="background-color: rgb(228, 228, 228); width: 600px; height: 700px; border-radius: 40px; overflow: hidden; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);">
+                            <img src="./images/4.jpg" class="card-img-top" alt="..." style="height: 330px; object-fit: cover; padding: 20px; border-radius: 50px; transform: scaleX(-1); object-position: center -350px;">
+                            <h5 class="card-title" style="text-align: center; font-size: 36px; margin-top: 10px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -10px;">Family Ride</h5>
+                            <div class="card-body d-flex flex-column" style="padding: 30px; font-family: 'Jura', sans-serif; font-weight: 800;">
+                                <p style="margin-bottom: 10px; font-size: 23px;">A partir de 50€/dia</p>
+                                <p style="margin-top: 10px; font-size: 23px">Equipada com:</p>
+                                <ul style="display: flex; flex-direction: column; gap: 0px; margin-top: -20px;">
+                                    <li>Cozinha equipada;</li>
+                                    <li>Cama de casal;</li>
+                                    <li>WC incorporado;</li>
+                                    <li>Carregador USB;</li>
+                                </ul>
+                                <a href="#" class="mt-4 text-center" style="text-decoration: none; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; color: black;" data-bs-toggle="modal" data-bs-target="#modal4">+ info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card4 -->
+
+                    <!-- Card5 -->
+                    <div class="col-6 d-flex justify-content-center g-5">
+                        <div class="card" style="background-color: rgb(228, 228, 228); width: 600px; height: 700px; border-radius: 40px; overflow: hidden; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);">
+                            <img src="./images/5.jpg" class="card-img-top" alt="..." style="height: 330px; object-fit: cover; padding: 20px; border-radius: 50px; transform: scaleX(-1); object-position: center -350px;">
+                            <h5 class="card-title" style="text-align: center; font-size: 36px; margin-top: 10px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -10px;">Surf Ride</h5>
+                            <div class="card-body d-flex flex-column" style="padding: 30px; font-family: 'Jura', sans-serif; font-weight: 800;">
+                                <p style="margin-bottom: 10px; font-size: 23px;">A partir de 60€/dia</p>
+                                <p style="margin-top: 10px; font-size: 23px">Equipada com:</p>
+                                <ul style="display: flex; flex-direction: column; gap: 0px; margin-top: -20px;">
+                                    <li>Cozinha equipada;</li>
+                                    <li>Cama de casal;</li>
+                                    <li>WC portátil;</li>
+                                    <li>Carregador USB;</li>
+                                </ul>
+                                <a href="#" class="mt-4 text-center" style="text-decoration: none; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; color: black;" data-bs-toggle="modal" data-bs-target="#modal5">+ info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card5 -->
+
+                    <!-- Card6 -->
+                    <div class="col-6 d-flex justify-content-center g-5">
+                        <div class="card" style="background-color: rgb(228, 228, 228); width: 600px; height: 700px; border-radius: 40px; overflow: hidden; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);">
+                            <img src="./images/6.jpg" class="card-img-top" alt="..." style="height: 330px; object-fit: cover; padding: 20px; border-radius: 50px; transform: scaleX(-1); object-position: center -650px;">
+                            <h5 class="card-title" style="text-align: center; font-size: 36px; margin-top: 10px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -10px;">Cave Ride</h5>
+                            <div class="card-body d-flex flex-column" style="padding: 30px; font-family: 'Jura', sans-serif; font-weight: 800;">
+                                <p style="margin-bottom: 10px; font-size: 23px;">A partir de 30€/dia</p>
+                                <p style="margin-top: 10px; font-size: 23px">Equipada com:</p>
+                                <ul style="display: flex; flex-direction: column; gap: 0px; margin-top: -20px;">
+                                    <li>Cozinha equipada;</li>
+                                    <li>Cama de casal;</li>
+                                    <li>WC portátil;</li>
+                                    <li>Carregador USB;</li>
+                                </ul>
+                                <a href="#" class="mt-4 text-center" style="text-decoration: none; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; color: black;" data-bs-toggle="modal" data-bs-target="#modal6">+ info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card6 -->                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="footer" style="height: 300px; background-color: black; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            
+            <div id="footerTopText" style="height: 150px; width: 450px; display: flex; justify-content: center; padding-left: 30px; padding-top: 50px;">
+                <!-- centered text + social media icons + footer text -->
+                <h2 style="color: white; font-weight: 600; font-size: 35px; letter-spacing: 0px;">LIVING AROUND</h2>
+            </div>
+
+            <div id="footerMiddleIcons" style="height: 250px; width: 400px; display: flex; flex-direction: row; justify-content: center; padding-top: 20px;">
+                <a href="https://facebook.com"><i class="fa-brands fa-square-facebook" style="font-size: 75px; color: rgb(90, 90, 90);"></i></a>
+                <a href="https://instagram.com"><i class="fa-brands fa-square-instagram" style="font-size: 75px; color: rgb(90, 90, 90);"></i></a>
+                <a href="https://x.com"><i class="fa-brands fa-square-x-twitter" style="font-size: 75px; color: rgb(90, 90, 90);"></i></a>
+            </div>
+
+            <div id="footerBottomText" style="height: 150px; width: 450px; display: flex; justify-content: center; padding-left: 60px;">
+                <h2 style="color: white; font-weight: 600; font-size: 17px; letter-spacing: 0px;">Powered by Cesae Digital</h2>
+            </div>
+
+        </div>
+
+</body>
+
+<!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
+
+            <div class="modal-content" style="border-radius: 40px; overflow: hidden; height: 165vh; position: relative; display: flex; flex-direction: column;">
+
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./images/vanacomodacao.jpg'); background-size: cover; background-position: center; opacity: 1; z-index: 0;"></div>
+
+                <div style="position: relative; z-index: 1; background-color: rgba(228,228,228,0.95); flex: 1; display: flex; flex-direction: column; overflow-y: auto;">
+
+                <img src="./images/1.jpg" alt="Hippie Ride" style="width: 100%; height: 500px; object-fit: cover; padding: 50px; border-radius: 70px; transform: scaleX(-1); margin-top: -20px;">
+
+                <h5 class="text-center" style="font-size: 36px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -5px;">Hippie Ride</h5>
+
+                <div style="padding: 30px; flex-grow: 1; display: flex; align-items: flex-start; justify-content: flex-start;">
+
+                    <p style="font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; text-align: left; margin-top: 15px;" class="px-2">
+                        Imagine acordar com o som das ondas na praia, estacionar à beira de uma floresta serena ou partir numa viagem espontânea sem preocupações com hotéis ou horários.
+                        Alugar uma carrinha adaptada é sinónimo de liberdade, conforto e aventura - tudo em um só lugar!<br>A nossa carrinha é a solução perfeita para viajantes que
+                        buscam autonomia e praticidade, sem abrir mão do essencial. Por apenas 50€ por dia, você tem um lar sobre rodas totalmente equipado para tornar sua viagem
+                        inesquecível:<br>✓ Cozinha completa - Prepare as suas refeições favoritas a qualquer momento.<br>✓ Cama de casal confortável - Descanse com todo o espaço que
+                        precisa.<br>✓ WC portátil - Privacidade e conveniência onde quer que vá.<br>✓ Carregador USB - Mantenha seus dispositivos sempre prontos para uso.<br> Por que
+                        escolher a nossa carrinha?<br>• Economia: Mais barato que hotéis e com total flexibilidade.<br>• Conforto: Tudo o que você precisa em um espaço compacto e bem
+                        organizado.<br>• Aventura personalizada: Viaje no seu ritmo, pare onde quiser e crie memórias únicas.<br>Seja para um fim de semana romântico, uma escapada em
+                        família ou uma viagem solo cheia de descobertas, a nossa carrinha está pronta para ser a sua companheira de estrada. Reserve já e transforme qualquer destino em
+                        casa!
+                    </p>
+
+                </div>
+
+                <a href="./acomodacao.html" class="btn d-flex justify-content-center align-items-center" style="background-color: #686931; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 27px; border-radius: 20px; text-align: center; display: block; width: 50%; margin: 10px auto 25px; height: 100px;">Alugar</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Modal 1 -->
+
+<!-- Modal 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
+
+            <div class="modal-content" style="border-radius: 40px; overflow: hidden; height: 165vh; position: relative; display: flex; flex-direction: column;">
+
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./images/vanacomodacao.jpg'); background-size: cover; background-position: center; opacity: 1; z-index: 0;"></div>
+
+                <div style="position: relative; z-index: 1; background-color: rgba(228,228,228,0.95); flex: 1; display: flex; flex-direction: column; overflow-y: auto;">
+
+                <img src="./images/2.jpg" alt="Harvest Ride" style="width: 100%; height: 500px; object-fit: cover; padding: 50px; border-radius: 70px; transform: scaleX(-1); margin-top: -20px; object-position: center -450px;">
+
+                <h5 class="text-center" style="font-size: 36px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -5px;">Harvest Ride</h5>
+
+                <div style="padding: 30px; flex-grow: 1; display: flex; align-items: flex-start; justify-content: flex-start;">
+
+                    <p style="font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; text-align: left; margin-top: 15px;" class="px-2">
+                        Imagine acordar com o som das ondas na praia, estacionar à beira de uma floresta serena ou partir numa viagem espontânea sem preocupações com hotéis ou horários.
+                        Alugar uma carrinha adaptada é sinónimo de liberdade, conforto e aventura - tudo em um só lugar!<br>A nossa carrinha é a solução perfeita para viajantes que
+                        buscam autonomia e praticidade, sem abrir mão do essencial. Por apenas 50€ por dia, você tem um lar sobre rodas totalmente equipado para tornar sua viagem
+                        inesquecível:<br>✓ Cozinha completa - Prepare as suas refeições favoritas a qualquer momento.<br>✓ Cama de casal confortável - Descanse com todo o espaço que
+                        precisa.<br>✓ WC portátil - Privacidade e conveniência onde quer que vá.<br>✓ Carregador USB - Mantenha seus dispositivos sempre prontos para uso.<br> Por que
+                        escolher a nossa carrinha?<br>• Economia: Mais barato que hotéis e com total flexibilidade.<br>• Conforto: Tudo o que você precisa em um espaço compacto e bem
+                        organizado.<br>• Aventura personalizada: Viaje no seu ritmo, pare onde quiser e crie memórias únicas.<br>Seja para um fim de semana romântico, uma escapada em
+                        família ou uma viagem solo cheia de descobertas, a nossa carrinha está pronta para ser a sua companheira de estrada. Reserve já e transforme qualquer destino em
+                        casa!
+                    </p>
+
+                </div>
+
+                <a href="./acomodacao.html" class="btn d-flex justify-content-center align-items-center" style="background-color: #686931; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 27px; border-radius: 20px; text-align: center; display: block; width: 50%; margin: 10px auto 25px; height: 100px;">Alugar</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Modal 2 -->
+
+<!-- Modal 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
+
+            <div class="modal-content" style="border-radius: 40px; overflow: hidden; height: 165vh; position: relative; display: flex; flex-direction: column;">
+
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./images/vanacomodacao.jpg'); background-size: cover; background-position: center; opacity: 1; z-index: 0;"></div>
+
+                <div style="position: relative; z-index: 1; background-color: rgba(228,228,228,0.95); flex: 1; display: flex; flex-direction: column; overflow-y: auto;">
+
+                <img src="./images/3.jpg" alt="Nomade Ride" style="width: 100%; height: 500px; object-fit: cover; padding: 50px; border-radius: 70px; transform: scaleX(-1); margin-top: -20px;">
+
+                <h5 class="text-center" style="font-size: 35px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -10px;">Nomade Ride</h5>
+
+                <div style="padding: 30px; flex-grow: 1; display: flex; align-items: flex-start; justify-content: flex-start;">
+
+                    <p style="font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; text-align: left; margin-top: 15px;" class="px-2">
+                        Imagine acordar com o som das ondas na praia, estacionar à beira de uma floresta serena ou partir numa viagem espontânea sem preocupações com hotéis ou horários.
+                        Alugar uma carrinha adaptada é sinónimo de liberdade, conforto e aventura - tudo em um só lugar!<br>A nossa carrinha é a solução perfeita para viajantes que
+                        buscam autonomia e praticidade, sem abrir mão do essencial. Por apenas 50€ por dia, você tem um lar sobre rodas totalmente equipado para tornar sua viagem
+                        inesquecível:<br>✓ Cozinha completa - Prepare as suas refeições favoritas a qualquer momento.<br>✓ Cama de casal confortável - Descanse com todo o espaço que
+                        precisa.<br>✓ WC incorporado - Privacidade e conveniência onde quer que vá.<br>✓ Carregador USB - Mantenha seus dispositivos sempre prontos para uso.<br> Por que
+                        escolher a nossa carrinha?<br>• Economia: Mais barato que hotéis e com total flexibilidade.<br>• Conforto: Tudo o que você precisa em um espaço compacto e bem
+                        organizado.<br>• Aventura personalizada: Viaje no seu ritmo, pare onde quiser e crie memórias únicas.<br>Seja para um fim de semana romântico, uma escapada em
+                        família ou uma viagem solo cheia de descobertas, a nossa carrinha está pronta para ser a sua companheira de estrada. Reserve já e transforme qualquer destino em
+                        casa!
+                    </p>
+
+                </div>
+
+                <a href="./acomodacao.html" class="btn d-flex justify-content-center align-items-center" style="background-color: #686931; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 27px; border-radius: 20px; text-align: center; display: block; width: 50%; margin: 10px auto 25px; height: 100px;">Alugar</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Modal 3 -->
+
+<!-- Modal 4 -->
+    <div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
+
+            <div class="modal-content" style="border-radius: 40px; overflow: hidden; height: 165vh; position: relative; display: flex; flex-direction: column;">
+
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./images/vanacomodacao.jpg'); background-size: cover; background-position: center; opacity: 1; z-index: 0;"></div>
+
+                <div style="position: relative; z-index: 1; background-color: rgba(228,228,228,0.95); flex: 1; display: flex; flex-direction: column; overflow-y: auto;">
+
+                <img src="./images/4.jpg" alt="Family Ride" style="width: 100%; height: 500px; object-fit: cover; padding: 50px; border-radius: 70px; transform: scaleX(-1); margin-top: -20px; object-position: center -450px;">
+
+                <h5 class="text-center" style="font-size: 36px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -5px;">Family Ride</h5>
+
+                <div style="padding: 30px; flex-grow: 1; display: flex; align-items: flex-start; justify-content: flex-start;">
+
+                    <p style="font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; text-align: left; margin-top: 15px;" class="px-2">
+                        Imagine acordar com o som das ondas na praia, estacionar à beira de uma floresta serena ou partir numa viagem espontânea sem preocupações com hotéis ou horários.
+                        Alugar uma carrinha adaptada é sinónimo de liberdade, conforto e aventura - tudo em um só lugar!<br>A nossa carrinha é a solução perfeita para viajantes que
+                        buscam autonomia e praticidade, sem abrir mão do essencial. Por apenas 50€ por dia, você tem um lar sobre rodas totalmente equipado para tornar sua viagem
+                        inesquecível:<br>✓ Cozinha completa - Prepare as suas refeições favoritas a qualquer momento.<br>✓ Cama de casal confortável - Descanse com todo o espaço que
+                        precisa.<br>✓ WC incorporado - Privacidade e conveniência onde quer que vá.<br>✓ Carregador USB - Mantenha seus dispositivos sempre prontos para uso.<br> Por que
+                        escolher a nossa carrinha?<br>• Economia: Mais barato que hotéis e com total flexibilidade.<br>• Conforto: Tudo o que você precisa em um espaço compacto e bem
+                        organizado.<br>• Aventura personalizada: Viaje no seu ritmo, pare onde quiser e crie memórias únicas.<br>Seja para um fim de semana romântico, uma escapada em
+                        família ou uma viagem solo cheia de descobertas, a nossa carrinha está pronta para ser a sua companheira de estrada. Reserve já e transforme qualquer destino em
+                        casa!
+                    </p>
+
+                </div>
+
+                <a href="./acomodacao.html" class="btn d-flex justify-content-center align-items-center" style="background-color: #686931; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 27px; border-radius: 20px; text-align: center; display: block; width: 50%; margin: 10px auto 25px; height: 100px;">Alugar</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Modal 4 -->
+
+<!-- Modal 5 -->
+    <div class="modal fade" id="modal5" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
+
+            <div class="modal-content" style="border-radius: 40px; overflow: hidden; height: 165vh; position: relative; display: flex; flex-direction: column;">
+
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./images/vanacomodacao.jpg'); background-size: cover; background-position: center; opacity: 1; z-index: 0;"></div>
+
+                <div style="position: relative; z-index: 1; background-color: rgba(228,228,228,0.95); flex: 1; display: flex; flex-direction: column; overflow-y: auto;">
+
+                <img src="./images/5.jpg" alt="Surf Ride" style="width: 100%; height: 500px; object-fit: cover; padding: 50px; border-radius: 70px; transform: scaleX(-1); margin-top: -20px; object-position: center -400px;">
+
+                <h5 class="text-center" style="font-size: 36px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -5px;">Surf Ride</h5>
+
+                <div style="padding: 30px; flex-grow: 1; display: flex; align-items: flex-start; justify-content: flex-start;">
+
+                    <p style="font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; text-align: left; margin-top: 20px;" class="px-2">
+                        Imagine acordar com o som das ondas na praia, estacionar à beira de uma floresta serena ou partir numa viagem espontânea sem preocupações com hotéis ou horários.
+                        Alugar uma carrinha adaptada é sinónimo de liberdade, conforto e aventura - tudo em um só lugar!<br>A nossa carrinha é a solução perfeita para viajantes que
+                        buscam autonomia e praticidade, sem abrir mão do essencial. Por apenas 50€ por dia, você tem um lar sobre rodas totalmente equipado para tornar sua viagem
+                        inesquecível:<br>✓ Cozinha completa - Prepare as suas refeições favoritas a qualquer momento.<br>✓ Cama de casal confortável - Descanse com todo o espaço que
+                        precisa.<br>✓ WC portátil - Privacidade e conveniência onde quer que vá.<br>✓ Carregador USB - Mantenha seus dispositivos sempre prontos para uso.<br> Por que
+                        escolher a nossa carrinha?<br>• Economia: Mais barato que hotéis e com total flexibilidade.<br>• Conforto: Tudo o que você precisa em um espaço compacto e bem
+                        organizado.<br>• Aventura personalizada: Viaje no seu ritmo, pare onde quiser e crie memórias únicas.<br>Seja para um fim de semana romântico, uma escapada em
+                        família ou uma viagem solo cheia de descobertas, a nossa carrinha está pronta para ser a sua companheira de estrada. Reserve já e transforme qualquer destino em
+                        casa!
+                    </p>
+
+                </div>
+
+                <a href="./acomodacao.html" class="btn d-flex justify-content-center align-items-center" style="background-color: #686931; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 27px; border-radius: 20px; text-align: center; display: block; width: 50%; margin: 10px auto 25px; height: 100px;">Alugar</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Modal 5 -->
+
+<!-- Modal 6 -->
+    <div class="modal fade" id="modal6" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered" style="max-width: 800px;">
+
+            <div class="modal-content" style="border-radius: 40px; overflow: hidden; height: 165vh; position: relative; display: flex; flex-direction: column;">
+
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./images/vanacomodacao.jpg'); background-size: cover; background-position: center; opacity: 1; z-index: 0;"></div>
+
+                <div style="position: relative; z-index: 1; background-color: rgba(228,228,228,0.95); flex: 1; display: flex; flex-direction: column; overflow-y: auto;">
+
+                <img src="./images/6.jpg" alt="Cave Ride" style="width: 100%; height: 500px; object-fit: cover; padding: 50px; border-radius: 70px; transform: scaleX(-1); margin-top: -20px; object-position: center -800px;">
+
+                <h5 class="text-center" style="font-size: 36px; font-family: 'Jura', sans-serif; font-weight: 800; margin-top: -5px;">Cave Ride</h5>
+
+                <div style="padding: 30px; flex-grow: 1; display: flex; align-items: flex-start; justify-content: flex-start;">
+
+                    <p style="font-family: 'Jura', sans-serif; font-weight: 800; font-size: 22px; text-align: left; margin-top: 20px;" class="px-2">
+                        Imagine acordar com o som das ondas na praia, estacionar à beira de uma floresta serena ou partir numa viagem espontânea sem preocupações com hotéis ou horários.
+                        Alugar uma carrinha adaptada é sinónimo de liberdade, conforto e aventura - tudo em um só lugar!<br>A nossa carrinha é a solução perfeita para viajantes que
+                        buscam autonomia e praticidade, sem abrir mão do essencial. Por apenas 50€ por dia, você tem um lar sobre rodas totalmente equipado para tornar sua viagem
+                        inesquecível:<br>✓ Cozinha completa - Prepare as suas refeições favoritas a qualquer momento.<br>✓ Cama de casal confortável - Descanse com todo o espaço que
+                        precisa.<br>✓ WC portátil - Privacidade e conveniência onde quer que vá.<br>✓ Carregador USB - Mantenha seus dispositivos sempre prontos para uso.<br> Por que
+                        escolher a nossa carrinha?<br>• Economia: Mais barato que hotéis e com total flexibilidade.<br>• Conforto: Tudo o que você precisa em um espaço compacto e bem
+                        organizado.<br>• Aventura personalizada: Viaje no seu ritmo, pare onde quiser e crie memórias únicas.<br>Seja para um fim de semana romântico, uma escapada em
+                        família ou uma viagem solo cheia de descobertas, a nossa carrinha está pronta para ser a sua companheira de estrada. Reserve já e transforme qualquer destino em
+                        casa!
+                    </p>
+
+                </div>
+
+                <a href="./acomodacao.html" class="btn d-flex justify-content-center align-items-center" style="background-color: #686931; font-family: 'Jura', sans-serif; font-weight: 800; font-size: 27px; border-radius: 20px; text-align: center; display: block; width: 50%; margin: 10px auto 25px; height: 100px;">Alugar</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- Modal 6 -->
+
+</html>

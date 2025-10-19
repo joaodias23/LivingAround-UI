@@ -1,0 +1,81 @@
+/* ############################################################################## ACOMODACAO.HTML RESPONSIVE ############################################################################## */
+
+/* ############################################################################## MOBILE ############################################################################## */
+@media (max-width: 480px) {
+
+    #hero {height: 50vh !important;}
+    #hero img {height: 100% !important; width: 100% !important; object-fit: cover !important; object-position: center !important;}
+    nav i {font-size: 30px !important; top: 12px !important; left: 12px !important;}
+    ul.nav {margin: 8px !important; gap: 8px !important; flex-direction: column !important;}
+    ul.nav a {font-size: 11px !important;}
+    h1 {font-size: 28px !important;}
+    div[style*="background-color: rgba(0, 0, 0, 0.7)"] {height: 100px !important;}
+    #middleSection {height: auto !important; padding-top: 30px !important; padding-bottom: 30px !important;}
+    .card {width: 100% !important; max-width: 280px !important; height: auto !important; border-radius: 20px !important;}
+    .card img {height: 180px !important; padding: 12px !important; border-radius: 15px !important; object-fit: cover !important; object-position: center !important;}
+    .card-title {font-size: 20px !important; margin-top: 8px !important;}
+    .card-body {padding: 15px !important;}
+    .card-body p {font-size: 14px !important; margin-bottom: 8px !important;}
+    .card-body ul {margin-top: -10px !important;}
+    .card-body li {font-size: 12px !important;}
+    .card-body a {font-size: 14px !important; margin-top: 10px !important;}
+    .col-6 {width: 100% !important;}
+    .modal-dialog {max-width: 95% !important;}
+    .modal-content {border-radius: 25px !important; height: auto !important;}
+    .modal-content img {height: 250px !important; padding: 20px !important; border-radius: 20px !important; object-fit: cover !important; object-position: center !important; margin-top: -20px !important;}
+    .modal-content h5 {font-size: 22px !important;}
+    .modal-body {padding: 15px !important;}
+    .modal-body p {font-size: 13px !important; line-height: 18px !important;}
+    .modal-body a {font-size: 16px !important; width: 70% !important; height: 55px !important;}
+    #footer {height: auto !important; padding: 20px !important;}
+    #footerTopText {height: auto !important; width: 100% !important; max-width: 90% !important; padding: 10px !important; display: flex !important; justify-content: center !important; align-items: center !important;}
+    #footerTopText h2 {font-size: 18px !important; text-align: center !important;}
+    #footerMiddleIcons {height: auto !important; width: 100% !important; max-width: 90% !important; padding: 15px !important; gap: 20px !important; display: flex !important; flex-direction: row !important; justify-content: center !important; align-items: center !important;}
+    #footerMiddleIcons i {font-size: 40px !important;}
+    #footerMiddleIcons a {margin: 0 10px !important;}
+    #footerBottomText {height: auto !important; width: 100% !important; max-width: 90% !important; padding: 10px !important; display: flex !important; justify-content: center !important; align-items: center !important;}
+    #footerBottomText h2 {font-size: 12px !important; text-align: center !important;}
+
+}
+/* ############################################################################## MOBILE ############################################################################## */
+
+/* ############################################################################## TABLET ############################################################################## */
+@media (min-width: 481px) and (max-width: 1023px) {
+
+    #hero {height: 60vh !important;}
+    #hero img {height: 100% !important; width: 100% !important; object-fit: cover !important; object-position: center -250px !important;}
+    nav i {font-size: 40px !important; top: 15px !important; left: 15px !important;}
+    ul.nav {margin: 12px !important; gap: 15px !important; flex-wrap: wrap !important;}
+    ul.nav a {font-size: 13px !important;}
+    h1 {font-size: 48px !important;}
+    div[style*="background-color: rgba(0, 0, 0, 0.7)"] {height: 120px !important;}
+    #middleSection {height: auto !important; padding-top: 50px !important; padding-bottom: 50px !important;}
+    .card {width: 100% !important; max-width: 420px !important; height: auto !important; border-radius: 30px !important;}
+    .card img {height: 280px !important; padding: 18px !important; border-radius: 25px !important; object-fit: cover !important; object-position: center !important;}
+    .card-title {font-size: 28px !important; margin-top: 10px !important;}
+    .card-body {padding: 20px !important;}
+    .card-body p {font-size: 16px !important; margin-bottom: 10px !important;}
+    .card-body ul {margin-top: -15px !important;}
+    .card-body li {font-size: 14px !important;}
+    .card-body a {font-size: 16px !important; margin-top: 15px !important;}
+    .col-6 {width: 100% !important;}
+    .modal-dialog {max-width: 90% !important;}
+    .modal-content {border-radius: 30px !important; height: auto !important;}
+    .modal-content img {height: 350px !important; padding: 30px !important; border-radius: 25px !important; object-fit: cover !important; object-position: center !important; margin-top: -20px !important;}
+    .modal-content h5 {font-size: 28px !important;}
+    .modal-body {padding: 20px !important;}
+    .modal-body p {font-size: 14px !important; line-height: 20px !important;}
+    .modal-body a {font-size: 18px !important; width: 65% !important; height: 60px !important;}
+    #footer {height: auto !important; padding: 30px !important; display: flex !important; flex-direction: column !important; justify-content: center !important; align-items: center !important;}
+    #footerTopText {height: auto !important; width: 100% !important; max-width: 90% !important; padding: 15px !important; display: flex !important; justify-content: center !important; align-items: center !important;}
+    #footerTopText h2 {font-size: 24px !important; text-align: center !important;}
+    #footerMiddleIcons {height: auto !important; width: 100% !important; max-width: 90% !important; padding: 20px !important; gap: 30px !important; display: flex !important; flex-direction: row !important; justify-content: center !important; align-items: center !important;}
+    #footerMiddleIcons i {font-size: 50px !important;}
+    #footerMiddleIcons a {margin: 0 10px !important;}
+    #footerBottomText {height: auto !important; width: 100% !important; max-width: 90% !important; padding: 15px !important; display: flex !important; justify-content: center !important; align-items: center !important;}
+    #footerBottomText h2 {font-size: 14px !important; text-align: center !important;}
+
+}
+/* ############################################################################## TABLET ############################################################################## */
+
+/* ############################################################################## ACOMODACAO.HTML RESPONSIVE ############################################################################## */
