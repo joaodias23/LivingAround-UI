@@ -34,10 +34,10 @@ It is structured to provide a seamless experience across all platforms, incorpor
 ![PageTwo Gif](./images/gif2.gif)
 
 ### Page 3:
-![PageTwo Screenshot](./images/gif3.gif)
+![PageTwo Screenshot](./images/gif3.png)
 
 ### Page 4:
-![PageTwo Screenshot](./images/gif4.gif)
+![PageTwo Screenshot](./images/gif4.png)
 
 ## Project Author
 
