@@ -30,7 +30,7 @@ It is structured to provide a seamless experience across all platforms, incorpor
 
 ## Project Showcase
 
-### Project Goal: To Replicate & Build a Responsive Website from this Figma Layout
+### Figma Layout
 ![Figma Layout](./images/projectshowcase.png)
 
 ### Landing Page:
